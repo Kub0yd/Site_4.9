@@ -7,5 +7,49 @@ header {
     }
     body {          
     background: url("../images/background.jpg") no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+      .section {
+        width: 100%; 
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; 
+        text-align: right;
+      }
+      
+
+body {
+    font-family: 'Montserrat', sans-serif;
+        }
+    main {
+        margin-left: 20px;  
+    }
+    .main-contacts{
+        margin-left: 100px;
+        border: 1px solid #131111;
+        max-width: 1000px;
+    } 
+    .map {
+        margin-top: 25px;
+        margin-left: 100px;
+        border: 1px solid #131111;
+        max-width: 1000px; 
+    }
+    .contacts-unit {
+        display: inline-block;
+        margin: 20px;   
+    }
+footer {
+    position: absolute;
+    bottom: 5px;
+}
