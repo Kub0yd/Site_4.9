@@ -5,20 +5,17 @@ header {
     color: white;
     font-size: 20px;
     }
-    body {          
+body {          
     background: url("../images/background.jpg") no-repeat;
     background-size: 150%;
+    font-family: 'Montserrat', sans-serif;
     }
 
-    * {
-        margin: 0;
-        padding: 0;
-      }
-      .container {
+    .container {
         width: 1200px;
         margin: 0 auto;
       }
-      .section {
+    .section {
         width: 100%; 
         margin: 50px 0;
         display: flex;
@@ -26,11 +23,6 @@ header {
         flex-direction: row; 
         text-align: right;
       }
-      
-
-body {
-    font-family: 'Montserrat', sans-serif;
-        }
     main {
         margin-left: 20px;  
     }
